@@ -1,0 +1,195 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font-family:serif;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+
+    margin-left: 5%;
+}
+
+a
+{
+    text-decoration: none;
+    color: red;
+}
+
+p
+{
+    font-family:serif;
+    color: white;
+    margin-left: 5%;
+
+    font-size: 25px;
+    font-weight: 500;
+}
+/*HEADER*/
+
+
+.header
+{
+    position: fixed;
+	z-index: 100;
+	
+
+	display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+}
+
+.header-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img
+{
+    width: 250px;
+    height: 75px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav
+{
+    margin-left: 5%;
+    width: 150px;
+}
+
+#first-nav-link.nav-link
+{
+    margin-left: 0;
+}
+
+.nav-link
+{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-contacts
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 5%;
+}
+
+.phone
+{
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+    width: 200px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.feedback
+{
+    width: 150px;
+
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+.feedback-link
+{
+    font-size: 15px;
+    margin-bottom: 15%;
+
+    margin: 0;
+    padding: 0;
+    
+	color: red;
+
+    
+
+}
+
+.inst-img
+{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/*MAIN*/
+
+.content
+{
+    background-color: black;
+    width: 100%;
+   
+}
+
+.us-info
+{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-us
+{
+    margin-top: 7%;
+}
+
+.pics
+{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 3%;
+}
+
+.into
+{
+    width: 700px;
+    height: 500px;
+
+    border-radius: 1.5%;
+}
+
+.street
+{
+    width: 700px;
+    height: 500px;
+
+    border-radius: 1.5%;
+
+}

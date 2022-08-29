@@ -1,0 +1,218 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{ 
+    margin-top: 7%;
+    margin-left: 5%;
+
+    font-family:serif;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+
+    height: 33%;
+}
+
+h2
+{
+    font-family:serif;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+
+    height: 33%;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: red;
+}
+
+p
+{
+    height: 33%;
+
+
+    font-family:serif;
+    color: black;
+
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+/*HEADER*/
+
+
+.header
+{
+    position: fixed;
+	z-index: 100;
+	top: 0;
+
+	display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+}
+
+.header-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img
+{
+    width: 250px;
+    height: 75px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav
+{
+    margin-left: 5%;
+    width: 150px;
+}
+
+#first-nav-link.nav-link
+{
+    margin-left: 0;
+}
+
+.nav-link
+{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-contacts
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 5%;
+}
+
+.phone
+{
+    margin-left: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+    width: 200px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.feedback
+{
+    width: 150px;
+
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+.feedback-link
+{
+    font-size: 15px;
+    margin-bottom: 15%;
+
+    margin: 0;
+    padding: 0;
+    
+	color: red;
+
+}
+
+.inst-img
+{
+    width: 40px;
+    height: 40px;
+}
+
+/*main*/
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#next.content-title
+{
+    margin-top: 2%;
+}
+
+.all-photo
+{
+    margin-left: 2.5%;
+    display: flex;
+    font-display: column;
+}
+
+.first-row-photo
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#last.first-row-photo
+{
+    padding-bottom: 5%;
+}
+
+.photo-settings
+{
+    width: 350px;
+    height: 250px;
+
+    padding: 5px;
+}
+
+.photo-settings:active
+{
+   position: fixed;
+   top: 15%;
+   left: 25%;
+
+   width: 800px;
+   height: 600px;
+   
+}
